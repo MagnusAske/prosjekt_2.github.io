@@ -1,0 +1,79 @@
+nav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto repeat(4, 1fr);/*Den første er auto de 4 neste 1fr*/
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+nav a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    }
+nav .hjem{
+    background-color: lightskyblue;
+    font-weight: 800;
+    font-size: 32på;
+    padding: 10px;
+    }
+header > nav{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    max-width: 960px;
+    margin:0 auto;
+    display: grid;
+    grid-column-gap: 32px;
+    grid-row-gap: 12px;
+    }
+body{
+    text-align: inherit;
+    background-color: cadetblue;
+} 
+p::first-letter{
+              font-size: 30px;
+          }
+          p::first-line{
+              color: black;
+          }
+          p::selection{
+              color: azure;
+          }
+          q::before{
+              content: "«";
+          }
+          q:after{
+              content: "»";
+          }
+          a{
+          color: azure;
+          }
+          h1{
+              font-family: TimesNewRoman;
+              font-size: 42px;
+              color: darkblue;
+              background-blend-mode: color;
+              background-color: azure;
+              text-align: center;
+          }
+          img:active{
+              width: 25px
+              
+          }
+          
+video{
+    border-radius: 75px;
+    box-shadow: 200px 100px 50px black;
+              box-shadow: -200px 100px darkslateblue;
+              box-shadow: 0px 0px 50px darkslateblue;
+    
+}
+          .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 75%;
+          }
